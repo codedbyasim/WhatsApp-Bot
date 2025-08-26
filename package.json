@@ -1,0 +1,37 @@
+{
+  "name": "tone-aware-whatsapp-bot",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "baileys",
+    "nlp",
+    "tone-aware",
+    "roman-urdu",
+    "firebase",
+    "mongodb"
+  ],
+  "author": "Your Name/Team",
+  "license": "ISC",
+  "description": "A tone-aware WhatsApp bot with Roman Urdu replies and fun features.",
+  "dependencies": {
+    "@huggingface/inference": "^3.0.0",
+    "@whiskeysockets/baileys": "^6.7.18",
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "firebase-admin": "^12.7.0",
+    "link-preview-js": "^3.0.14",
+    "mongo-baileys": "^1.0.1",
+    "mongodb": "^6.8.0",
+    "mongoose": "^8.5.4",
+    "node-cron": "^3.0.3",
+    "qrcode-terminal": "^0.12.0",
+    "natural": "^7.1.0"
+  }
+}
